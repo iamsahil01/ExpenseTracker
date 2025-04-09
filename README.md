@@ -26,13 +26,12 @@ A Java Swing application for tracking personal expenses with categorization, rep
 
 ## Installation
 
-1. Clone this repository
-2. Ensure you have MySQL installed and running
-3. Build the project with Maven:
+1. Ensure you have MySQL installed and running
+2. Build the project with Maven:
    ```
    mvn clean package
    ```
-4. Run the application:
+3. Run the application:
    ```
    java -jar target/expense-tracker-1.0-SNAPSHOT-jar-with-dependencies.jar
    ```
