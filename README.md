@@ -41,16 +41,4 @@ A Java Swing application for tracking personal expenses with categorization, rep
 
 The application will automatically create the necessary database and tables on first run. By default, it connects to MySQL on `localhost:3306` with username `root` and password `password`.
 
-To change these settings, modify the database connection parameters in `src/main/java/com/expensetracker/dao/DatabaseManager.java`.
-
-## Screenshots
-
-(Add screenshots here)
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details. 
+To change these settings, modify the database connection parameters in `src/main/java/com/expensetracker/util/DatabaseUtil.java`.
